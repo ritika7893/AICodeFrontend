@@ -12,7 +12,7 @@ function App() {
     <Router>
       <Navbar />
       <Routes>
-        <Route path="/" element={<Chatbot />} />
+        <Route path="/Chatbot" element={<Chatbot />} />
         <Route path="/CodeReview" element={<CodeReview />} />
       </Routes>
       <Footer />
