@@ -21,9 +21,9 @@ function Navbars() {
             <Link to="/Chatbot" className="nav-link">
               Chatbot
             </Link>
-            <Nav.Link Link to="/CodeReview" className="nav-link">
+            <Link to="/CodeReview" className="nav-link">
               Code Review
-            </Nav.Link>
+            </Link>
             <NavDropdown
               title="Dropdown"
               id="basic-nav-dropdown"
